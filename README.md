@@ -3,7 +3,7 @@ Creating a Dashboard that should look very professional in a sense.
 First column has:
     Home
     Profile
-    MEssages
+    Messages
     History
     Tasks
     Communities

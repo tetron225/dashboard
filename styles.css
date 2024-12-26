@@ -1,0 +1,30 @@
+
+body {
+    height: 100vh;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+}
+
+#leftside {
+    background-color: skyblue;
+}
+
+#rightside {
+    background-color: lightgray;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+#topside {
+    background-color: lightcyan;
+}
+
+#bottomside {
+    background-color: lightgreen;
+}
+
+
