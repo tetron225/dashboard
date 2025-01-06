@@ -7,6 +7,48 @@
 
 #leftside {
     background-color: skyblue;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    padding-left: 15px;
+}
+
+#icon1 {
+    padding-bottom: 10px;
+}
+
+#dashboard {
+    padding-bottom: 10px;
+}
+
+#icon7 {
+    padding-bottom: 20px;
+}
+
+#Communities {
+    padding-bottom: 20px;
+}
+
+#topside{
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+}
+
+#toppart {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+}
+
+#searchbar {
+    padding-left: 60px;
+}
+
+#bottompart {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+}
+
+#profileicon {
+    padding-left: 60px;
 }
 
 #rightside {
