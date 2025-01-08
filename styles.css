@@ -81,6 +81,32 @@ button{
 
 #bottomside {
     background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+#card {
+    outline-style: solid;
+    width: 350px;
+    height: 175px;
+}
+
+#projectcontainer {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#cardcontainer {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+    padding-left: 50px;
+}
+
+#yourproject {
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 
