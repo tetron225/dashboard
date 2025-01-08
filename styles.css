@@ -83,6 +83,7 @@ button{
     background-color: lightgreen;
     display: grid;
     grid-template-columns: 4fr 2fr;
+    grid-template-rows: 2fr 2fr;
 }
 
 #card {
@@ -109,4 +110,29 @@ button{
     padding-top: 20px;
 }
 
+#announcediv {
+    outline-style: solid;
+    width: 250px;
+    height: 80px;
+}
+
+#announce {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#trenddivcontainer {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#trend{
+    padding-bottom: 10px;
+}
+
+#trenddiv {
+    outline-style: solid;
+    width: 250px;
+    height: 62px;
+}
 
