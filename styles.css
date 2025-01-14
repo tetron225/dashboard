@@ -8,8 +8,13 @@
 #leftside {
     background-color: skyblue;
     display: grid;
-    grid-template-columns: 1fr 10fr;
     padding-left: 15px;
+    grid-template-rows: 1fr 4fr 3fr;
+}
+
+#smallcontainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 
 #icon1 {
