@@ -6,7 +6,7 @@
 }
 
 #leftside {
-    background-color: skyblue;
+    background-color: #448EE4;
     display: grid;
     padding-left: 15px;
     grid-template-rows: 1fr 4fr 8fr;
@@ -23,6 +23,11 @@ img {
     grid-template-columns: 1fr 5fr;
     gap: 30px;
     padding-bottom: 10px;
+}
+
+#Messages, #dashboard, #Home, #Profile, #History, #Tasks, #Communities, #Settings, #Support, #Privacy {
+    color: white;
+    font-size: 25px;
 }
 
 #section1, #section2 {
