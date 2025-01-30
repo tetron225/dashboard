@@ -80,7 +80,6 @@ button{
     display: grid;
     
     grid-template-columns: 5fr 2fr;
-    background-color: cyan;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -127,6 +126,12 @@ button{
     grid-template-columns: 2fr 1fr;
 }
 
+#comment {
+    font-size: 12px;
+}
+#username {
+    font-size: 20px;
+}
 
 #bottompart {
     display: grid;
@@ -151,7 +156,7 @@ button{
 #buttongroup {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    padding-right: 80px;
     align-items: center;
 }
 
@@ -220,5 +225,17 @@ button{
     outline-style: solid;
     width: 250px;
     height: 62px;
+}
+
+#new, #upload, #share {
+    background-color:#448EE4;
+    color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
 }
 
