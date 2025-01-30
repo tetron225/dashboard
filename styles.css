@@ -42,9 +42,16 @@ img {
     font-family: 'roboto-google';
 }
 
-#Messages, #dashboard, #Home, #Profile, #History, #Tasks, #Communities, #Settings, #Support, #Privacy {
+#Messages, #Home, #Profile, #History, #Tasks, #Communities, #Settings, #Support, #Privacy {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#dashboard {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 10px;
 }
 
 #section1, #section2 {
@@ -175,7 +182,7 @@ button{
     grid-template-rows: 2fr 2fr 2fr;
 }
 
-#card {
+#cardid {
     outline-style: solid;
     width: 350px;
     height: 175px;
