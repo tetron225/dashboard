@@ -177,7 +177,7 @@ button{
 
 
 #bottomside {
-    background-color: lightgray;
+    background-color: rgb(233, 233, 233);
     display: grid;
     grid-template-columns: 4fr 2fr;
     grid-template-rows: 1vh 2fr 2fr 2fr;
@@ -187,6 +187,16 @@ button{
     outline-style: solid;
     width: 350px;
     height: 200px;
+}
+
+#title1 {
+    font-size: 18px;
+}
+
+#text1 {
+    font-weight: none;
+    color: gray;
+    font-size: 12;
 }
 
 #projectcontainer {
@@ -209,13 +219,7 @@ button{
     width: 40%;
 }
 
-#trendingcontainer {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    padding-bottom: 10px;
-}
+
 
 #cardcontainer {
     display: grid;
@@ -297,10 +301,20 @@ button{
     border-left: none;
     border-right: none;
     padding-top: 10px;
+    border-color: lightgray;
 }
 
 #announcediv3 {
     padding-top: 10px;
+}
+
+#text7, #text8, #text9 {
+    color: gray;
+    outline: none;
+
+}
+#title7, #title8, #title9 {
+    font-size: 14px;
 }
 
 #announce {
@@ -308,6 +322,15 @@ button{
     padding-top: 20px;
     grid-row-start: 1;
     grid-row-end: 2;
+}
+
+#trendingcontainer {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-bottom: 25px;
+    display: grid;
 }
 
 #trenddivcontainer {
@@ -322,9 +345,15 @@ button{
 }
 
 #trenddiv {
-    outline-style: solid;
+    
     width: 250px;
     height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    
 }
 
 #new, #upload, #share {
@@ -337,5 +366,17 @@ button{
     height: 35px;
     width: 90px;
     font-weight: bold;
+}
+
+#subicon {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#text3 {
+    font-size: 13px;
+    color: gray;
 }
 
