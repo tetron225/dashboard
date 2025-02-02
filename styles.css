@@ -67,6 +67,7 @@ img {
     /*padding-bottom: 10px;*/
     display: grid;
     align-items: center;
+    padding-top: 10px;
 }
 
 #icon7 {
@@ -179,18 +180,41 @@ button{
     background-color: lightgray;
     display: grid;
     grid-template-columns: 4fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-rows: 1vh 2fr 2fr 2fr;
 }
 
 #cardid {
     outline-style: solid;
     width: 350px;
-    height: 175px;
+    height: 200px;
 }
 
 #projectcontainer {
     grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-rows: 5vh 6fr;
+}
+
+#announcecontainer {
+    grid-row-start: 1;
     grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-rows: 5vh 3fr;
+    gap: 2px;
+    width: 40%;
+}
+
+#trendingcontainer {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-bottom: 10px;
 }
 
 #cardcontainer {
@@ -200,21 +224,90 @@ button{
     padding-left: 50px;
 }
 
+#cardid {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 10px 3fr 1fr;
+    
+    padding-right: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    background-color: white;
+    
+}
+
+#blanksection {
+    background-color: orange;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#card {
+    padding-top: 25px;
+    padding-left: 15px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#miniiconcontainer {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 #yourproject {
     padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 20px;
 }
 
-#announcediv {
-    outline-style: solid;
-    width: 250px;
+#announcecardcontainer {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#announcecardcontainer2 {
+    background-color: white;
+    margin: 2vw;
+}
+
+#announcediv1, #announcediv2, #announcediv3 {
+    background-color: white;
+    width: 20vh;
     height: 80px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: solid;
+    font-size: 12px;
+}
+
+#announcediv1, #announcediv3 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+
+#announcediv2 {
+    border-left: none;
+    border-right: none;
+    padding-top: 10px;
+}
+
+#announcediv3 {
+    padding-top: 10px;
 }
 
 #announce {
-    padding-top: 20px;
     padding-bottom: 10px;
+    padding-top: 20px;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 #trenddivcontainer {
@@ -231,7 +324,7 @@ button{
 #trenddiv {
     outline-style: solid;
     width: 250px;
-    height: 62px;
+    height: 70px;
 }
 
 #new, #upload, #share {
