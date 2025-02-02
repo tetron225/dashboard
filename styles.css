@@ -216,7 +216,7 @@ button{
     display: grid;
     grid-template-rows: 5vh 3fr;
     gap: 2px;
-    width: 40%;
+    width: 50%;
 }
 
 
@@ -337,6 +337,7 @@ button{
     
     display: grid;
     grid-template-rows: repeat(4, 1fr);
+    width:50%;
 }
 
 #trend{
